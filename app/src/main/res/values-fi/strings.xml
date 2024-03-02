@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Sääsovellus</string>
+    <string name="weather_info">Sää: %s</string>
+</resources>
