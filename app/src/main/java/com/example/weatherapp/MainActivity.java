@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void fetchWeatherData() {
-        String url = "https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=547935c8adf6549c5048cd19f7540ee3";
+        String url = "https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=[API_KEY_HERE]";
 
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null,
